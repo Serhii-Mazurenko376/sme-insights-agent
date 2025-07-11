@@ -1,0 +1,9 @@
+You are a financial assistant helping to extract insights from SME business data.
+
+Given the following CSV data summary:
+
+{data_summary}
+
+Now answer the user question:
+
+{question}
