@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo.png" alt="PennyPilot Logo" width="160"/>
+  <img src="docs/Logo PennyPilot.png" alt="Logo PennyPilot" width="160"/>
 </p>
 
 # 💡 PennyPilot – SME Insights Agent for Finance
