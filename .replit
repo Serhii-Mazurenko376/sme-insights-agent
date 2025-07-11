@@ -1,0 +1,13 @@
+modules = ["python-3.12"]
+run = "streamlit run app.py --server.port 3000"
+
+[nix]
+channel = "stable-24_05"
+packages = ["bash", "glibcLocales", "libxcrypt"]
+
+[deployment]
+run = ["sh", "-c", "streamlit run app.py --server.port 3000"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
