@@ -21,6 +21,22 @@
 
 ---
 
+## 🧠 Agent Flow Logic
+
+This app uses a multi-agent architecture to analyze SME financial documents:
+
+1. **Master Agent** – Orchestrates task
+2. **Performance Summarizer** – Summarizes key financial trends
+3. **Risk Detector** – Identifies red flags or missed opportunities
+4. **Action Advisor** – Converts findings into next-step advice
+
+Plain-text task format:
+> “Analyze this document, summarize performance, identify risks, and suggest actions.”
+
+See [`docs/agent_flow_logic.md`](docs/agent_flow_logic.md) for full details.
+
+---
+
 ## ⚙️ Tech Stack
 
 - Python  
