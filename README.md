@@ -1,34 +1,75 @@
-# 💡 SME Insights Agent for Finance
+<p align="center">
+  <img src="docs/logo.png" alt="PennyPilot Logo" width="160"/>
+</p>
 
-An AI-powered assistant that helps small/medium businesses (SMEs) extract insights from financial documents using LangChain, OpenAI, and FastAPI.
+# 💡 PennyPilot – SME Insights Agent for Finance
+
+[![Hackathon](https://img.shields.io/badge/GenAI%20Hackathon-2025-blueviolet)](https://genai.works/hackathon)
+[![LangChain](https://img.shields.io/badge/Built%20with-LangChain-ffca28)](https://www.langchain.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-informational)](https://platform.openai.com/)
+
+**PennyPilot** is an AI-powered assistant that helps small and medium-sized businesses (SMEs) extract clear insights from financial documents — using LangChain, OpenAI, and FastAPI.
+
+---
 
 ## 🚀 What It Does
 
-- Analyze uploaded income statements, invoices, or finance notes
-- Summarize financial performance
-- Identify red flags or opportunities
-- Suggest actions in plain English
+- 🧾 Analyze uploaded income statements, invoices, or finance notes  
+- 📊 Summarize financial performance  
+- 🚨 Identify red flags or missed opportunities  
+- ✅ Suggest next-step actions in plain English  
+
+---
 
 ## ⚙️ Tech Stack
 
-- Python
-- LangChain
-- OpenAI (GPT-4 / GPT-3.5)
-- FastAPI
+- Python  
+- LangChain  
+- OpenAI (GPT-4 / GPT-3.5)  
+- FastAPI  
+- *(Optional: Streamlit / CSV upload integration)*
 
-## 📁 Structure
+---
 
-- `app/` – FastAPI app logic
-- `agents/` – LangChain agents
-- `prompts/` – Custom prompt templates
-- `data/` – Sample input docs
-- `docs/` – Pitch and visual assets
+## 📁 Project Structure
+```
+/app        → FastAPI application logic
+/agents     → LangChain agents & tools
+/prompts    → Prompt templates
+/data       → Sample input documents
+/docs       → Project pitch, logo, and visual assets
+```
+---
 
-## 👥 Team
+## 👥 Team PennyPilot
 
-- Serhii Mazurenko – PM, prompts, docs
-- Wasif Saeed – Backend, LangChain, FastAPI
+| Name               | Role / Focus Area                     | Location        |
+|--------------------|---------------------------------------|-----------------|
+| Serhii Mazurenko   | PM, Prompt Engineering, Docs          | Sweden          |
+| Jing Li            | AI Technologist, SME tooling support  | UK              |
+| Wasif Saeed        | Backend, LangChain, FastAPI           | Pakistan        |
+| Syed M. Fazil (TBD)| Full-stack, GenAI dev (joining later) | Pakistan        |
 
-## ⏰ Hackathon Deadline
+---
 
-Pitching on **Monday, 14 July 2025**
+## ✅ Coordination
+
+- 💬 GitHub Issues: for async collaboration  
+- 📋 Trello: DM Serhii to join the private board  
+- 📎 Project repo: [github.com/Serhii-Mazurenko376/sme-insights-agent](https://github.com/Serhii-Mazurenko376/sme-insights-agent)
+
+---
+
+## ⏰ Hackathon Timeline
+
+- 📝 **Team Registration Deadline:** July 12, 2025  
+- 🚀 **Project Submission Deadline:** **Monday, July 14, 2025**
+
+---
+
+## 🤝 Join the Mission
+
+We’re building a useful, agent-powered tool for real businesses — designed for clarity, not complexity.  
+
+Let’s pilot something that makes a difference.  
+— **PennyPilot Team**
