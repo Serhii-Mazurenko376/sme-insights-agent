@@ -1,11 +1,15 @@
 import streamlit as st
 import pandas as pd
 import os
-from dotenv import load_dotenv
-from chain import run_query
 
-# Load OpenAI key from environment
-load_dotenv()
+# Optional: Load .env variables if available (won't crash if dotenv is missing)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+from chain import run_query
 
 # Streamlit page setup
 st.set_page_config(page_title="📊 SME Insights Agent", layout="wide")
