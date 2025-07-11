@@ -55,3 +55,4 @@ summarize_doc()
 find_risks_and_opportunities()
 generate_plain_english_recommendations()
 
+![Agent Flow Diagram](image.png)
