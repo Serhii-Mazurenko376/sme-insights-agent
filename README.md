@@ -63,8 +63,7 @@ See [`docs/agent_flow_logic.md`](docs/agent_flow_logic.md) for full details.
 |--------------------|---------------------------------------|-----------------|
 | Serhii Mazurenko   | PM, Prompt Engineering, Docs          | Sweden          |
 | Jing Li            | AI Technologist, SME tooling support  | UK              |
-| Wasif Saeed        | Backend, LangChain, FastAPI           | Pakistan        |
-| Syed M. Fazil (TBD)| Full-stack, GenAI dev (joining later) | Pakistan        |
+| Wasif Saeed        | (Former) Backend  – stepped away      | Pakistan        |
 
 ---
 
