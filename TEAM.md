@@ -1,7 +1,7 @@
 # 📌 Welcome to PennyPilot – Team, Roles, and Next Steps
 
 Hey team!  
-We’re officially registered as **PennyPilot Team** for the GenAI Hackathon — great to have you all on board! This issue will serve as a central place to track who’s who, how we collaborate, and what’s coming next.
+We’re officially registered as **PennyPilot Team** for the GenAI Hackathon — great to have you all on board! This document tracks who’s who, how we collaborate, and what’s coming next.
 
 ---
 
@@ -11,8 +11,8 @@ We’re officially registered as **PennyPilot Team** for the GenAI Hackathon —
 |--------------------|---------------------------------------|-----------------------------|-----------------|
 | Serhii Mazurenko   | Team Lead, Coordinator, SME vision    | serhii.mazurenko@icloud.com | Sweden          |
 | Jing Li            | Creative AI Technologist, SME focus   | jinglilowe@gmail.com        | UK              |
-| Wasif Saeed        | Contributor / Dev Support             | wasifsaeed970@gmail.com     | Pakistan        |
-| Syed M. Fazil (TBD)| Full-stack + GenAI (joining later)    | TBD                         | Pakistan        |
+
+> ℹ️ **Note:** Wasif Saeed stepped away from the project on July 12 due to a scheduling conflict. We're grateful for his early repo setup contributions.
 
 ---
 

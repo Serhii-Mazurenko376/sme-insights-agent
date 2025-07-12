@@ -1,13 +1,13 @@
 modules = ["python-3.12"]
-run = "streamlit run app.py --server.port 3000"
+run = "uvicorn main:app --host=0.0.0.0 --port=8000 --reload"
 
 [nix]
 channel = "stable-24_05"
 packages = ["bash", "glibcLocales", "libxcrypt"]
 
 [deployment]
-run = ["sh", "-c", "streamlit run app.py --server.port 3000"]
+run = ["sh", "-c", "uvicorn main:app --host=0.0.0.0 --port=8000 --reload"]
 
 [[ports]]
-localPort = 3000
+localPort = 8000
 externalPort = 80
