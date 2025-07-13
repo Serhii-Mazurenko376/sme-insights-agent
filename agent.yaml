@@ -1,0 +1,8 @@
+id: analyze-financial-pdf
+name: Analyze Financial PDF
+description: Analyzes chunks from financial documents and provides insights.
+agent:
+  type: chat
+  provider: genai
+  model: gpt-3.5-turbo
+  temperature: 0.2
