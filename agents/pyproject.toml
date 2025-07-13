@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sme-insights-agent"
+version = "0.1.0"
+description = "Analyze SME financial PDFs with GenAI"
+authors = ["Serhii Mazurenko <your@email.com>"]
+readme = "README.md"
+packages = [{ include = "agents" }, { include = "pdf_tools" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+agentos = "^0.2.0"
+langchain = "^0.2.0"
+openai = "^1.30.1"
+
+# Optional: uncomment if needed
+# streamlit = "^1.35.0"
+# fastapi = "^0.111.0"
+# uvicorn = "^0.30.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
