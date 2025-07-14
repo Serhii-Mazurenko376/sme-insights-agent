@@ -1,8 +1,30 @@
 id: analyze-financial-pdf
-name: Analyze Financial PDF
-description: Analyzes chunks from financial documents and provides insights.
-agent:
-  type: chat
-  provider: genai
-  model: gpt-3.5-turbo
-  temperature: 0.2
+name: Analyze Financial Document
+description: Full chain for analyzing SME financial statements.
+chain:
+  - id: summarize-financials
+    name: Financial Summary Agent
+    type: chat
+    provider: genai
+    model: gpt-3.5-turbo
+    temperature: 0.2
+    instructions: >
+      Summarize the key financial metrics and performance from the document content.
+
+  - id: identify-risks
+    name: Risk & Opportunity Agent
+    type: chat
+    provider: genai
+    model: gpt-3.5-turbo
+    temperature: 0.3
+    instructions: >
+      Identify potential risks and missed opportunities from the summary.
+
+  - id: suggest-actions
+    name: Action Advisor Agent
+    type: chat
+    provider: genai
+    model: gpt-3.5-turbo
+    temperature: 0.4
+    instructions: >
+      Propose concrete next steps for the business based on insights above.
